@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Lanjutan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        form, table, video, audio, iframe {
+            margin-top: 20px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 50%;
+        }
+        table, th, td {
+            border: 1px solid #000;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Halaman Elemen Lanjutan</h1>
+
+    <!-- Formulir -->
+    <form action="#" method="post">
+        <label for="nama">Nama:</label><br>
+        <input type="text" id="nama" name="nama" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <button type="submit">Kirim</button>
+    </form>
+
+    <!-- Tabel Data Siswa -->
+    <h2>Data Siswa</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Umur</th>
+                <th>Kelas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Arbi</td>
+                <td>17</td>
+                <td>XII RPL</td>
+            </tr>
+            <tr>
+                <td>Dudung kentang</td>
+                <td>18</td>
+                <td>XII RPL</td>
+            </tr>
+        </tbody>
+        <tr>
+            <td>atenan cimol bojot</td>
+            <td>17</td>
+            <td>XII RPL</td>
+        </tr>
+    </tbody>
+    <tr>
+        <td>Hamdan cireng isi</td>
+        <td>32</td>
+        <td>XII RPL</td>
+    </tr>
+</tbody>
+<tr>
+    <td>Nuril Ujang kedu</td>
+    <td>20</td>
+    <td>XII RPL</td>
+</tr>
+</tbody>
+    </table>
+
+   <!-- Video Lokal -->
+<h2>Video Lokal</h2>
+<video width="480" controls>
+    <source src="video-placeholder.mp4" type="video/mp4">
+    Browser Anda tidak mendukung pemutaran video.
+</video>
+
+  
+
+    <!-- Iframe ke Halaman Lain -->
+<h2>Iframe YouTube</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ey_MvfjoS94?si=UZPBxm4qrwPvd6cO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<footer>
+    &copy; 2025 Arbi XII RPL. ALL RIGHTS RESERVED.
+</footer>
+
+</body>
+</html>
